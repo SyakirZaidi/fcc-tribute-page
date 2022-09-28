@@ -132,6 +132,7 @@ nav ul li a {
 
 #videos {
   text-align: center;
+  width: 100%;
 }
 
 .video-list {
@@ -167,5 +168,9 @@ nav ul li a {
 @media (max-width: 800px) {
   #image {
     max-width: 100%;
+  }
+
+  iframe {
+    width: 100%;
   }
 }
